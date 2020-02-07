@@ -1,0 +1,815 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 617951286,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user opens the Chrome browser",
+            "match": {
+              "location": "StepDef.user_opens_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8364797957,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes inside the application",
+            "match": {
+              "location": "StepDef.user_goes_inside_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 481334160,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the Username in Username field",
+            "match": {
+              "location": "StepDef.user_enters_the_Username_in_Username_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175315260,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the Password in Password field",
+            "match": {
+              "location": "StepDef.user_enter_the_Password_in_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2790580064,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks the Login Button",
+            "match": {
+              "location": "StepDef.user_clicks_the_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1637848938,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Gives their preffered Location",
+            "match": {
+              "location": "StepDef.user_Gives_their_preffered_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1373593409,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects the Hotel Name",
+            "match": {
+              "location": "StepDef.user_selects_the_Hotel_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1339817152,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the Room Type",
+            "match": {
+              "location": "StepDef.user_selects_the_Room_Type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1269289321,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the number of rooms",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To verify whether the Checkout date field accepts a later date than Checkin date",
+        "description": "",
+        "id": "adactin-hotelbooking;to-verify-whether-the-checkout-date-field-accepts-a-later-date-than-checkin-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1395657059,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter the Checkin date",
+            "match": {
+              "location": "StepDef.user_enter_the_Checkin_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1891804741,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the Checkout date",
+            "match": {
+              "location": "StepDef.user_enter_the_Checkout_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1466729809,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters the number of adults per room",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29812,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters the number of childrens per room",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_childrens_per_room()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204124680,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on Search Button",
+            "match": {
+              "location": "StepDef.user_clicks_on_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3198172098,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "it checks for the proper checkin and checkout date",
+            "match": {
+              "location": "StepDef.it_checks_for_the_proper_checkin_and_checkout_date()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 72330,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user opens the Chrome browser",
+            "match": {
+              "location": "StepDef.user_opens_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2260246578,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes inside the application",
+            "match": {
+              "location": "StepDef.user_goes_inside_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159720767,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the Username in Username field",
+            "match": {
+              "location": "StepDef.user_enters_the_Username_in_Username_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165088841,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the Password in Password field",
+            "match": {
+              "location": "StepDef.user_enter_the_Password_in_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246605489,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks the Login Button",
+            "match": {
+              "location": "StepDef.user_clicks_the_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1289447460,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Gives their preffered Location",
+            "match": {
+              "location": "StepDef.user_Gives_their_preffered_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1403641729,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects the Hotel Name",
+            "match": {
+              "location": "StepDef.user_selects_the_Hotel_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1384183922,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the Room Type",
+            "match": {
+              "location": "StepDef.user_selects_the_Room_Type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1328008754,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the number of rooms",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To verify whether it accepts a past checkout date",
+        "description": "",
+        "id": "adactin-hotelbooking;to-verify-whether-it-accepts-a-past-checkout-date",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1591337186,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter their Checkin date",
+            "match": {
+              "location": "StepDef.user_enter_their_Checkin_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1291727818,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter their Checkout date",
+            "match": {
+              "location": "StepDef.user_enter_their_Checkout_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1469825347,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters the total  adults per room",
+            "match": {
+              "location": "StepDef.user_enters_the_total_adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48872,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters the totalchildrens per room",
+            "match": {
+              "location": "StepDef.user_enters_the_totalchildrens_per_room()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164031256,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks the Search Button",
+            "match": {
+              "location": "StepDef.user_clicks_the_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1066113731,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "it checks for the proper checkin and checkout date in their field",
+            "match": {
+              "location": "StepDef.it_checks_for_the_proper_checkin_and_checkout_date_in_their_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 83082,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user opens the Chrome browser",
+            "match": {
+              "location": "StepDef.user_opens_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2285264037,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes inside the application",
+            "match": {
+              "location": "StepDef.user_goes_inside_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161307633,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the Username in Username field",
+            "match": {
+              "location": "StepDef.user_enters_the_Username_in_Username_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167212809,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the Password in Password field",
+            "match": {
+              "location": "StepDef.user_enter_the_Password_in_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133623241,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks the Login Button",
+            "match": {
+              "location": "StepDef.user_clicks_the_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1262146712,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Gives their preffered Location",
+            "match": {
+              "location": "StepDef.user_Gives_their_preffered_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1413742058,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects the Hotel Name",
+            "match": {
+              "location": "StepDef.user_selects_the_Hotel_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1340798496,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the Room Type",
+            "match": {
+              "location": "StepDef.user_selects_the_Room_Type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1274359767,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the number of rooms",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "To verify whether locations in Select Hotel  page are  displayed according to the location  selected in  Search Hotel",
+        "description": "",
+        "id": "adactin-hotelbooking;to-verify-whether-locations-in-select-hotel--page-are--displayed-according-to-the-location--selected-in--search-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322536582,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enter their Checkin date in that field",
+            "match": {
+              "location": "StepDef.user_enter_their_Checkin_date_in_that_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1395675630,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enter their Checkout date in thatfield",
+            "match": {
+              "location": "StepDef.user_enter_their_Checkout_date_in_thatfield()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1425375006,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter the total  adults per room",
+            "match": {
+              "location": "StepDef.user_enter_the_total_adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46917,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter the total childrens per room",
+            "match": {
+              "location": "StepDef.user_enter_the_total_childrens_per_room()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3311456374,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user clicks on the Search Button",
+            "match": {
+              "location": "StepDef.user_clicks_on_the_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 231747982,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"location\"}\n  (Session info: chrome\u003d79.0.3945.130)\n  (Driver info: chromedriver\u003d2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform\u003dWindows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ADMIN-PC\u0027, ip: \u0027192.168.1.116\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.130, webStorageEnabled: true}\nSession ID: f4d1ce996fccafe766ceebbdd78b05f0\n*** Element info: {Using\u003did, value\u003dlocation}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.equals(Unknown Source)\r\n\tat org.junit.Assert.isEquals(Assert.java:133)\r\n\tat org.junit.Assert.equalsRegardingNull(Assert.java:129)\r\n\tat org.junit.Assert.assertEquals(Assert.java:112)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.Adactin.stepdefnition.StepDef.it_checks_for_the_Location_displayed_is_equal_to_the_Location_searched(StepDef.java:208)\r\n\tat ✽.Then it checks for the Location displayed is equal to the Location searched.(Adactin.feature:44)\r\n",
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "it checks for the Location displayed is equal to the Location searched.",
+            "match": {
+              "location": "StepDef.it_checks_for_the_Location_displayed_is_equal_to_the_Location_searched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@TC103"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43496,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user opens the Chrome browser",
+            "match": {
+              "location": "StepDef.user_opens_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 587056018,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user goes inside the application",
+            "match": {
+              "location": "StepDef.user_goes_inside_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225341382,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the Username in Username field",
+            "match": {
+              "location": "StepDef.user_enters_the_Username_in_Username_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159713924,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the Password in Password field",
+            "match": {
+              "location": "StepDef.user_enter_the_Password_in_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1361677495,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks the Login Button",
+            "match": {
+              "location": "StepDef.user_clicks_the_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1299595683,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Gives their preffered Location",
+            "match": {
+              "location": "StepDef.user_Gives_their_preffered_Location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1362385646,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects the Hotel Name",
+            "match": {
+              "location": "StepDef.user_selects_the_Hotel_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311185624,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the Room Type",
+            "match": {
+              "location": "StepDef.user_selects_the_Room_Type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1240758959,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the number of rooms",
+            "match": {
+              "location": "StepDef.user_enters_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "To verify whether Checkin and Checkout dates in Select Hotel  page are  displayed according to the Checkin and Checkout date selected in  Search Hotel",
+        "description": "",
+        "id": "adactin-hotelbooking;to-verify-whether-checkin-and-checkout-dates-in-select-hotel--page-are--displayed-according-to-the-checkin-and-checkout-date-selected-in--search-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1314303154,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters their Checkin date in that field",
+            "match": {
+              "location": "StepDef.user_enters_their_Checkin_date_in_that_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311781371,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters their Checkout date in thatfield",
+            "match": {
+              "location": "StepDef.user_enters_their_Checkout_date_in_thatfield()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1345086994,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters the total  adult per room",
+            "match": {
+              "location": "StepDef.user_enters_the_total_adult_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49849,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters  total childrens per room",
+            "match": {
+              "location": "StepDef.user_enters_total_childrens_per_room()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2416958309,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user click on the Search Button",
+            "match": {
+              "location": "StepDef.user_click_on_the_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 468191,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "it checks for the Checkin Checkout date displayed is equal to the Checkin and checkout date searched.",
+            "match": {
+              "location": "StepDef.it_checks_for_the_Checkin_Checkout_date_displayed_is_equal_to_the_Checkin_and_checkout_date_searched()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin HotelBooking",
+    "description": "",
+    "id": "adactin-hotelbooking",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
